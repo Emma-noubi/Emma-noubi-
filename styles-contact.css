@@ -1,0 +1,40 @@
+body{
+    .contact{
+        background-color: #f4f4f4;
+        padding: 20px;
+        margin: 20px auto;
+        width: 80%;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    }
+    .contact h2{
+       text-align: center;
+       color: #333;
+       margin-bottom: 20px;
+    }
+    .contact p{
+        text-align: center;
+        color: #666;
+        margin-bottom: 20px;
+    }
+    .contact input[type="text"]
+    .contact input[type="email"]
+    .contact textarea{
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    .contact textarea{
+        height: 100px;
+    }
+        .contact button{
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact button:hover{
+            background-color: #45a049;
+        }
+}

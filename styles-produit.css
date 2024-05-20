@@ -1,0 +1,39 @@
+.produit{
+    text-align: center;
+    margin: 20px;
+    padding: auto;
+    background-color: burlywood;
+    border-radius: 5px;
+    box-shadow: 0010px;
+    rgba(0,0,0,0.1)
+}
+.produit img{
+    max-width: 100%;
+    height: auto;
+    border: radius 5px;
+    margin-bottom: 20px;
+}
+.produit h1{
+    color: #333;
+    margin-bottom: 10px;
+}
+.produit p{
+    color: #666;
+    margin-bottom: 10px;
+}
+.produit button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.produit button:hover{
+    background-color: #45a049;  
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
